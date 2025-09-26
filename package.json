@@ -1,5 +1,5 @@
 {
-  "name": "minhas-contas-em-dia",
+  "name": "bytebanks",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -46,6 +46,8 @@
     "firebase": "^12.3.0",
     "framer-motion": "^12.15.0",
     "input-otp": "^1.4.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
     "lucide-react": "^0.510.0",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
@@ -75,3 +77,4 @@
   },
   "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af"
 }
+

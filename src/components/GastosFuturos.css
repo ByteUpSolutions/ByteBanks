@@ -1,0 +1,59 @@
+.filtros-futuros-container {
+    margin-bottom: 24px;
+}
+
+.lista-gastos-futuros {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.gasto-futuro-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--app-white);
+    border: 1px solid var(--app-border);
+    border-radius: 8px;
+}
+
+.gasto-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.gasto-icone {
+    font-size: 24px;
+}
+
+.gasto-detalhes {
+    display: flex;
+    flex-direction: column;
+}
+
+.gasto-descricao {
+    font-weight: 600;
+}
+
+.gasto-subinfo {
+    font-size: 14px;
+    color: var(--app-secondary);
+}
+
+.gasto-valores {
+    text-align: right;
+}
+
+.gasto-valor {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--app-error);
+}
+
+.gasto-parcela {
+    font-size: 12px;
+    color: var(--app-secondary);
+    display: block;
+}

@@ -1,0 +1,33 @@
+.modal-extrato {
+    width: 90%;
+    max-width: 900px;
+}
+
+.filtros-extrato-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.tabela-resultados-container {
+    margin-top: 24px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabela-resultados-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-resultados-container th,
+.tabela-resultados-container td {
+    padding: 12px;
+    border: 1px solid var(--app-border);
+    text-align: left;
+}
+
+.tabela-resultados-container th {
+    background-color: var(--app-bg);
+}

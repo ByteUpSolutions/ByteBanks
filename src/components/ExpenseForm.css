@@ -1,0 +1,98 @@
+.expense-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.expense-form {
+  margin-bottom: 24px;
+}
+
+.bank-grid, .payment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.bank-button, .payment-button {
+  min-height: 48px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bank-button.selected, .payment-button.selected {
+  background-color: var(--app-primary);
+  color: var(--app-white);
+  border-color: var(--app-primary);
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 24px;
+  font-size: 20px;
+  min-height: 64px;
+}
+
+/* Estilos para o container de parcelamento */
+.parcelamento-container {
+    background-color: #f9f9f9;
+    border: 1px solid var(--app-border);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 24px;
+}
+
+.title-small {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--app-text);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+/* Estilos para botões de toggle (À Vista/Parcelado) */
+.toggle-group {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--app-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.toggle-group button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background-color: var(--app-white);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--app-secondary);
+    transition: all 0.2s ease;
+}
+
+.toggle-group button:not(:last-child) {
+    border-right: 1px solid var(--app-border);
+}
+
+.toggle-group button.active {
+    background-color: var(--app-primary);
+    color: var(--app-white);
+}
+
+.parcelamento-details {
+    margin-top: 16px;
+    border-top: 1px solid var(--app-border);
+    padding-top: 20px;
+}
+
+.info-text {
+    font-size: 14px;
+    color: var(--app-secondary);
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+

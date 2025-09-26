@@ -1,0 +1,35 @@
+.auth-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.auth-subtitle {
+  margin-bottom: 32px;
+  color: var(--app-secondary);
+}
+
+.auth-form {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.field-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--app-text);
+  margin-bottom: 8px;
+}
+
+.auth-button {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.toggle-button {
+  width: 100%;
+  margin-top: 16px;
+}
+
